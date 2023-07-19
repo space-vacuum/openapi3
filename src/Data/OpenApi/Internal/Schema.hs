@@ -358,10 +358,10 @@ inlineNonRecursiveSchemas defs = inlineSchemasWhen nonRecursive defs
 --     ],
 --     "items": [
 --         {
---             "type": "string"
+--             "type": "number"
 --         },
 --         {
---             "type": "number"
+--             "type": "string"
 --         }
 --     ],
 --     "type": "array"

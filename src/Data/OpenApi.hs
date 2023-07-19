@@ -356,8 +356,8 @@ import Data.OpenApi.Internal
 --         }
 --     },
 --     "required": [
---         "name",
---         "age"
+--         "age",
+--         "name"
 --     ],
 --     "type": "object"
 -- }
@@ -376,26 +376,6 @@ import Data.OpenApi.Internal
 --     "oneOf": [
 --         {
 --             "properties": {
---                 "tag": {
---                     "enum": [
---                         "ErrorNoUser"
---                     ],
---                     "type": "string"
---                 },
---                 "userId": {
---                     "maximum": 9223372036854775807,
---                     "minimum": -9223372036854775808,
---                     "type": "integer"
---                 }
---             },
---             "required": [
---                 "userId",
---                 "tag"
---             ],
---             "type": "object"
---         },
---         {
---             "properties": {
 --                 "requiredPermission": {
 --                     "type": "string"
 --                 },
@@ -409,6 +389,26 @@ import Data.OpenApi.Internal
 --             "required": [
 --                 "requiredPermission",
 --                 "tag"
+--             ],
+--             "type": "object"
+--         },
+--         {
+--             "properties": {
+--                 "tag": {
+--                     "enum": [
+--                         "ErrorNoUser"
+--                     ],
+--                     "type": "string"
+--                 },
+--                 "userId": {
+--                     "maximum": 9223372036854775807,
+--                     "minimum": -9223372036854775808,
+--                     "type": "integer"
+--                 }
+--             },
+--             "required": [
+--                 "tag",
+--                 "userId"
 --             ],
 --             "type": "object"
 --         }

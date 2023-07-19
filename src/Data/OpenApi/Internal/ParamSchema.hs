@@ -305,8 +305,8 @@ instance ToParamSchema UUID where
 -- >>> BSL.putStrLn $ encodePretty $ genericToParamSchema defaultSchemaOptions (Proxy :: Proxy Color)
 -- {
 --     "enum": [
---         "Red",
---         "Blue"
+--         "Blue",
+--         "Red"
 --     ],
 --     "type": "string"
 -- }

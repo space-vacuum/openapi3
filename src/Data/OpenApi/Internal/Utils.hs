@@ -136,4 +136,4 @@ instance SwaggerMonoid (Maybe a) where
   swaggerMappend _ y = y
 
 encodePretty :: ToJSON a => a -> BSL.ByteString
-encodePretty = P.encodePretty' $ P.defConfig { P.confCompare = P.compare }
+encodePretty = P.encodePretty
